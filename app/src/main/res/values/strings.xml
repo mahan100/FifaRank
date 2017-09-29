@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FifaRank</string>
+    <string name="cup">جام</string>
+    <string name="league">لیگ</string>
+    <string name="statistics">امار</string>
+    <string name="forecasting">پیش بینی</string>
+    <string name="alib">علی ب</string>
+    <string name="alin">علی ن</string>
+    <string name="mehdi">مهدی</string>
+    <string name="reza">رضا</string>
+</resources>

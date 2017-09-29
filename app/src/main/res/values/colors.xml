@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff0000</color>
+    <color name="colorPrimaryDark">#ff4444</color>
+    <color name="colorAccent">#ff8888</color>
+    <color name="taariktarin">#800000</color>
+    <color name="roshantarin">#ffeeee</color>
+    <color name="baraghkonande">#ffffee</color>
+    <color name="jodakonande">#484848</color>
+    <color name="siyah">#000000</color>
+    <color name="sefid">#ffffff</color>
+</resources>

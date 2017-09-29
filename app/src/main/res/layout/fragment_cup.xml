@@ -1,0 +1,327 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+
+        <TextView
+            android:id="@+id/tv_mehdi_name"
+            style="@style/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mehdi"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@mipmap/real2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/num2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" />
+
+        <nl.dionsegijn.steppertouch.StepperTouch
+            android:id="@+id/stepperTouch1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:stepperActionsColor="@color/sefid"
+            app:stepperActionsDisabledColor="@color/baraghkonande"
+            app:stepperBackgroundColor="@color/sefid"
+            app:stepperButtonColor="@color/colorPrimaryDark"
+            app:stepperTextColor="@color/sefid"
+            app:stepperTextSize="@dimen/fontsize_koochak"
+            tools:ignore="MissingPrefix"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton1"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/im1"
+            android:layout_marginStart="8dp" >
+
+        </nl.dionsegijn.steppertouch.StepperTouch>
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/ran1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_mehdi_name"
+            app:layout_constraintStart_toEndOf="@+id/stepperTouch1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.258" />
+
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        >
+
+
+        <nl.dionsegijn.steppertouch.StepperTouch
+            android:id="@+id/stepperTouch2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:stepperBackgroundColor="@color/sefid"
+            app:stepperButtonColor="@color/colorPrimaryDark"
+            app:stepperActionsColor="@color/sefid"
+            app:stepperActionsDisabledColor="@color/baraghkonande"
+            app:stepperTextColor="@color/sefid"
+            app:stepperTextSize="@dimen/fontsize_koochak"
+            tools:ignore="MissingPrefix"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/im2"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+            android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:id="@+id/tv_reza_name"
+            style="@style/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reza"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@mipmap/united2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/num2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/ran1"
+            app:layout_constraintEnd_toStartOf="@+id/tv_reza_name"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintStart_toEndOf="@+id/stepperTouch2"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cons3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+
+        <nl.dionsegijn.steppertouch.StepperTouch
+            android:id="@+id/stepperTouch3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:stepperBackgroundColor="@color/sefid"
+            app:stepperButtonColor="@color/colorPrimaryDark"
+            app:stepperActionsColor="@color/sefid"
+            app:stepperActionsDisabledColor="@color/baraghkonande"
+            app:stepperTextColor="@color/sefid"
+            app:stepperTextSize="@dimen/fontsize_koochak"
+            tools:ignore="MissingPrefix"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/im3"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+            android:layout_marginEnd="14dp" />
+
+
+        <TextView
+            android:id="@+id/tv_alin_name"
+            style="@style/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alin"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@mipmap/juventus"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/num2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/ran1"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alin_name"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintStart_toEndOf="@+id/stepperTouch3"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cons4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+
+        <nl.dionsegijn.steppertouch.StepperTouch
+            android:id="@+id/stepperTouch4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:stepperBackgroundColor="@color/sefid"
+            app:stepperButtonColor="@color/colorPrimaryDark"
+            app:stepperActionsColor="@color/sefid"
+            app:stepperActionsDisabledColor="@color/baraghkonande"
+            app:stepperTextColor="@color/sefid"
+            app:stepperTextSize="@dimen/fontsize_koochak"
+            tools:ignore="MissingPrefix"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintStart_toEndOf="@+id/im4"
+            android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+            android:layout_marginEnd="14dp">
+
+        </nl.dionsegijn.steppertouch.StepperTouch>
+
+
+        <TextView
+            android:id="@+id/tv_alib_name"
+            style="@style/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alib"
+            android:drawablePadding="1dp"
+            android:drawableLeft="@mipmap/barcelona2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/num2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval"
+            android:src="@mipmap/ran1"
+            app:layout_constraintEnd_toStartOf="@+id/tv_alib_name"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintStart_toEndOf="@+id/stepperTouch4"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
+

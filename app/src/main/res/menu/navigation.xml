@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_league"
+        android:icon="@mipmap/league"
+        android:title="@string/league" />
+
+    <item
+        android:id="@+id/navigation_statistics"
+        android:icon="@mipmap/statistics"
+        android:title="@string/statistics" />
+    <item
+        android:id="@+id/navigation_cup"
+        android:icon="@mipmap/cup"
+        android:title="@string/cup" />
+    <item
+        android:id="@+id/navigation_forcasting"
+        android:icon="@mipmap/forcasting"
+        android:title="@string/forecasting" />
+
+</menu>
